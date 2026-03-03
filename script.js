@@ -11,7 +11,7 @@ const jurusanInput = document.getElementById("jurusan");
 
 const tbody = document.querySelector("tbody");
 
-const API_URL = "http://localhost/praktikum/api/";
+const API_URL = "http://localhost/html/Praktikum-API/";
 
 // =======================
 // READ DATA
