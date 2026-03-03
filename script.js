@@ -11,7 +11,7 @@ const jurusanInput = document.getElementById("jurusan");
 
 const tbody = document.querySelector("tbody");
 
-const API_URL = "http://localhost/praktikum/api/";
+const API_URL = "http://localhost/Praktikum/api/";
 
 // =======================
 // READ DATA
@@ -71,7 +71,7 @@ window.editData = function(id, npm, nama, jurusan) {
 window.deleteData = function(id) {
     if (confirm("Yakin ingin menghapus data?")) {
         fetch(API_URL + "delete.php", {
-            method: "POST",
+            method: "DELETE",
             headers: {
                 "Content-Type": "application/json"
             },
